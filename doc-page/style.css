@@ -1,0 +1,21 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  display: flex;
+}
+
+nav {
+  margin-right: 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+nav>header {}
+
+main {
+  margin-left: 30rem;
+}
