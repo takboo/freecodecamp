@@ -1,21 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
+
 html {
   font-size: 10px;
 }
 
 body {
+  font-family: 'Poppins', sans-serif;
+  color: black;
   font-size: 1.6rem;
   display: flex;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
 }
 
 nav {
-  margin-right: 2rem;
   position: fixed;
   top: 0;
   left: 0;
+  height: 100%;
+  border: 3px dashed gray;
+  text-align: center;
 }
 
-nav>header {}
+header {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+nav>ul {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  list-style-type: none;
+}
+
+nav>ul>li {
+  padding: 1rem;
+  border-top: 3px dashed gray;
+}
 
 main {
-  margin-left: 30rem;
+  margin: 0;
+  margin-left: 27rem;
+}
+
+article {
+  margin-top: 1rem;
+}
+
+@media (max-width: 411px) {
+  code {
+    font-family: 'Fira Mono';
+    padding: 2rem;
+    max-width: 30rem;
+    display: block;
+    font-size: 1.4rem;
+    color: blueviolet;
+    background-color: wheat;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    text-align: left;
+  }
+}
+
+code {
+  font-family: 'Fira Mono';
+  padding: 2rem;
+  max-width: 72rem;
+  display: block;
+  font-size: 1.4rem;
+  color: blueviolet;
+  background-color: wheat;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  text-align: left;
+}
+
+.main-section p {
+  margin: 1rem 0 0 0;
+}
+
+.main-section ul {
+  margin: 1rem 0 0 0;
+}
+
+.main-section code {
+  margin: 1rem 0 0 0;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.main-section {
+  margin-top: 1rem;
 }
